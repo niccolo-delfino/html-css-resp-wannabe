@@ -91,3 +91,30 @@ img {
   }
 
 }
+
+@media screen and (min-width: 421px) and (max-width: 1024px){
+
+  .row{
+    width: 100%
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 49%;
+  }
+
+  #steps .row>.central{
+    padding-left: 2%;
+  }
+
+  #steps .row>.right{
+    float: none;
+    margin: 0 auto;
+  }
+}
